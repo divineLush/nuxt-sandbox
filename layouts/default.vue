@@ -1,7 +1,12 @@
 <template>
-  <main>
-    <Nuxt />
-  </main>
+  <div>
+    <header>
+      <h1>This is a default layout</h1>
+    </header>
+    <main>
+      <Nuxt />
+    </main>
+  </div>
 </template>
 
 <style>

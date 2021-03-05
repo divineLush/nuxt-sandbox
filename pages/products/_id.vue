@@ -1,12 +1,13 @@
 <template>
     <section>
-        <h1>Products {{ id }}</h1>
-        <nuxt-link to="/">Home</nuxt-link>
+        <h2>Products {{ id }}</h2>
+        <nuxt-link to="/products">Back to products</nuxt-link>
     </section>
 </template>
 
 <script>
 export default {
+    // method provided by Nuxt
     // validating url
     validate(data) {
         console.log(data);
